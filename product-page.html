@@ -148,56 +148,71 @@
             Код товара: 366666-2
           </p>
           <div class="product-card__buttons">
-            <button class="product-card__icon-favorite" type="submit">
+            <a class="product-card__icon-favorite" href="#">
               <img src="images/favorite.svg" alt="favorite">
-            </button>
-            <button class="product-card__icon-comparsion" type="submit">
+            </a>
+            <a class="product-card__icon-comparsion" href="#">
               <img src="images/comparsion.svg" alt="comparsion">
-            </button>
-            <div class="rate">
+            </a>
 
+            <a class="rate" href="#">
+              <div class="rate-yo"></div>
+            </a>
+          </div>
+          <div class="tabs-wrapper product-card__tabs">
+            <div class="tabs">
+              <a class="tab tab--active product-card__tab" href="#product-1">Характеристики</a>
+              <a class="tab product-card__tab" href="#product-2">Наличие в магазине</a>
             </div>
+            <div class="tabs-container">
+              <div id="product-1" class="tabs-content product-card__tabs-content tabs-content--active">
+                <ul class="product-card__list">
+                  <li class="product-card__item">
+                    <div class="product-card__item-left">Производитель</div>
+                    <div class="product-card__item-right">Канада</div>
+                  </li>
+                  <li class="product-card__item">
+                    <div class="product-card__item-left">Количество мест, шт: </div>
+                    <div class="product-card__item-right">3</div>
+                  </li>
+                  <li class="product-card__item">
+                    <div class="product-card__item-left">Мощность, л.с.</div>
+                    <div class="product-card__item-right">155</div>
+                  </li>
+                  <li class="product-card__item">
+                    <div class="product-card__item-left">Тип двигателя</div>
+                    <div class="product-card__item-right">Бензиновый</div>
+                  </li>
+                  <li class="product-card__item">
+                    <div class="product-card__item-left">Год выпуска</div>
+                    <div class="product-card__item-right"> 2018</div>
+                  </li>
+                </ul>
+                <a class="product-card__more" href="#">Показать еще</a>
+                <div class="product-card__btn"><button type="submit ">Купить</button></div>
 
-            <div class="tabs-wrapper product-card__tabs">
-              <div class="tabs">
-                <a class="tab tab--active product-card__tab" href="#product-1">Характеристики</a>
-                <a class="tab product-card__tab" href="#product-2">Наличие в магазине</a>
               </div>
-              <div class="tabs-container">
-                <div id="product-1" class="tabs-content product-card__tabs-content tabs-content--active">
-                  <ul class="product-card__list">
-                    <li class="product-card__item">
-                      <div class="product-card__item-left">Производитель</div>
-                      <div class="product-card__item-right">Канада</div>
-                    </li>
-                    <li class="product-card__item">
-                      <div class="product-card__item-left">Количество мест, шт: </div>
-                      <div class="product-card__item-right">3</div>
-                    </li>
-                    <li class="product-card__item">
-                      <div class="product-card__item-left">Мощность, л.с.</div>
-                      <div class="product-card__item-right">155</div>
-                    </li>
-                    <li class="product-card__item">
-                      <div class="product-card__item-left">Тип двигателя</div>
-                      <div class="product-card__item-right">Бензиновый</div>
-                    </li>
-                    <li class="product-card__item">
-                      <div class="product-card__item-left">Год выпуска</div>
-                      <div class="product-card__item-right">	2018</div>
-                    </li>
-                  </ul>
-                  <a class="product-card__more" href="#"></a>
-                  <button class="product-card__btn" type="submit ">Купить</button>
-                </div>
-                <div id="product-2" class="tabs-content product-card__tabs-content">
-                  content-2
-                </div>
+              <div id="product-2" class="tabs-content product-card__tabs-content">
+                <ul class="product-card__list">
+                  <li class="product-card__item">
+                    <div class="product-card__item-left">Магазин</div>
+                    <div class="product-card__item-right">Drive Moto</div>
+                  </li>
+                  <li class="product-card__item">
+                    <div class="product-card__item-left">Количество товара, шт: </div>
+                    <div class="product-card__item-right">10</div>
+                  </li>
+                  <li class="product-card__item">
+                    <div class="product-card__item-left">Наличие</div>
+                    <div class="product-card__item-right">Есть</div>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
     </div>
   </section>
 
