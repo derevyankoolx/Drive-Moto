@@ -82,6 +82,8 @@ $(function () {
     });
 
     $(".rate-yo").rateYo({
-        rating: 3.6
+        normalFill: "#c4c4c4",
+        ratedFill: "#1c62cd",
+        spacing: "7px"
       });
 });
