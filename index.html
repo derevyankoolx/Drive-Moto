@@ -17,6 +17,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
@@ -25,6 +26,11 @@
       <div class="container">
         <div class="header__top-inner">
           <nav class="menu">
+            <button class="menu__btn">
+              <div class="menu__btn-line"></div>
+              <div class="menu__btn-line"></div>
+              <div class="menu__btn-line"></div>
+            </button>
             <ul class="menu__list">
               <li class="menu__item"><a class="menu__link" href="#">Магазины</a></li>
               <li class="menu__item"><a class="menu__link" href="#">Акции</a></li>
@@ -33,6 +39,7 @@
           </nav>
           <a class="logo" href="#">
             <img class="logo__img" src="images/logo.svg" alt="Logo">
+            <div class="logo__img-mobile"><img src="images/logo-sm.svg" alt="Logo"></div>
           </a>
           <div class="header__box">
             <a class="header__address-link"
@@ -62,6 +69,98 @@
         </div>
       </div>
     </div>
+      <div class="menu-mobile">
+        <ul class="menu-mobile__list">
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__link" href="#"><img class="menu-mobile__img" src="images/account-icon.svg" alt="">
+              <p>Войти</p>
+            </a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__link" href="#"><img class="menu-mobile__img" src="images/account-icon.svg" alt="">
+              <p>Регистрация</p>
+            </a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__link" href="#"><img class="menu-mobile__img" src="images/save-icon.svg" alt="">
+              <p>Избранное</p>
+            </a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__link" href="#"><img class="menu-mobile__img" src="images/basket-icon.svg" alt="">
+              <p>Корзина</p>
+            </a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__link" href="#"><img class="menu-mobile__img" src="images/shop-icon.svg" alt="">
+              <p>Магазины</p>
+            </a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__link" href="#"><img class="menu-mobile__img" src="images/procent-icon.svg" alt="">
+              <p>Акции</p>
+            </a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__link" href="#"><img class="menu-mobile__img" src="images/delivery-icon.svg" alt="">
+              <p>Доставка и оплата</p>
+            </a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__link" href="#">
+              <p>Квадроциклы</p>
+            </a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__link" href="#">
+              <p>Катера</p>
+            </a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__link" href="#">
+              <p>Гидроциклы</p>
+            </a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__link" href="#">
+              <p>Лодки</p>
+            </a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__link" href="#">
+              <p>Вездеходы</p>
+            </a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__link" href="#">
+              <p>Снегоходы</p>
+            </a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__link" href="#">
+              <p>Двигатели</p>
+            </a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__link" href="#">
+              <p>Запчасти</p>
+            </a>
+          </li>
+          <li class="menu-mobile__item header__address">
+            <a class="menu-mobile__link" href="#">
+              <p>Москва, <br>
+                ул. Науки 25</p>
+            </a>
+          </li>
+        </ul>
+        <div class="menu-mobile__linewrapper">
+          <ul class="menu-mobile__line">
+            <li class="menu__item"><a class="menu__link" href="#">Магазины</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Акции</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Доставка и оплата</a></li>
+          </ul>
+        </div>
+      </div>
     <div class="header__bottom">
       <div class="container">
         <ul class="menu-categories">
@@ -110,7 +209,7 @@
     </div>
   </header>
 
-  <section class="banner-section page-section">
+  <!-- <section class="banner-section page-section">
     <div class="container">
       <div class="banner-section__inner">
         <div class="banner-section__slider">
@@ -162,7 +261,7 @@
         </a>
       </div>
     </div>
-  </section>
+  </section> 
 
   <div class="search page-section">
     <div class="container">
@@ -2690,7 +2789,7 @@
         <a class="footer__bottom-link" href="#">Политика обработки персональных данных</a>
       </div>
     </div>
-  </footer>
+  </footer> -->
 
 
 
@@ -2703,14 +2802,3 @@
 </body>
 
 </html>
-
-
-<!-- 
-<div class="tabs-wrapper">
-  <div class="tabs">
-    <a class="tab tab--actives-content" href="#"></a>
-  </div>
-  <div class="tabs-container">
-    <div class="tabs-content"></div>
-  </div>
-</div> -->
