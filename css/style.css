@@ -119,6 +119,12 @@ body {
 .menu-mobile__linewrapper {
     display: none;       
 }
+.aside__btn {
+    display: none;
+}
+.product-card__btn-mobile {
+    display: none;
+}
 .menu-mobile__link {
     display: block;
     padding-left: 53px;
