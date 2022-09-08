@@ -375,6 +375,9 @@
     .footer__top-drop--active::after {
         transform: rotate(180deg);
     }
+    .footer__top-drop {
+        pointer-events: auto;
+    }
     .footer__top-item {
         border-bottom: 2px solid #F9F9F4;
     }

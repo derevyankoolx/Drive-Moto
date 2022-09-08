@@ -1,5 +1,4 @@
 $(function () {
-    // slick slider // 
     $('.banner-section__slider').slick({
         dots: true,
         prevArrow: '<button class="banner-section__slider-btn banner-section__slider-btnprev"><img src="images/arrow-left.svg" alt="arrow"></button>',
@@ -14,23 +13,16 @@ $(function () {
         ]
     });
 
-
     $('.tab').on('click', function(e){
         e.preventDefault();
 
         $($(this).siblings()).removeClass('tab--active');
-        $($(this).parent().siblings().find('div')).removeClass('tabs-content--active');
+        $($(this).closest('.tabs-wrapper').siblings().find('div')).removeClass('tabs-content--active');
 
         $(this).addClass('tab--active');
         $($(this).attr('href')).addClass('tabs-content--active');
 
-        
-        // $('.tab').removeClass('tab--active');
-        // $('.tabs-content').removeClass('tabs-content--active');
-
-        // $(this).addClass('tab--active');
-        // $($(this).attr('href')).addClass('tabs-content--active');
-
+        $('.slick-slider').slick('setPosition');
     });
 
     $('.product-item__favorite').on('click', function () {
